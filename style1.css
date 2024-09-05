@@ -14,7 +14,7 @@ body{
 .firstMain{
     position: relative;
     height: 98vh;
-    background-image: url(bg_image.jpg);
+    background-image: url(assests/bg_image.jpg);
     background-size: max(1200px, 100vw);
     background-position: center center;
     display: grid;
