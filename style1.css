@@ -6,9 +6,9 @@
 }
 body{
     background-color: black;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     overflow-wrap: anywhere;
-    overflow-x: visible;
+    /* overflow-x: visible; */
 }
 
 .firstMain{

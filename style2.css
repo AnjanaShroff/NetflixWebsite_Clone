@@ -181,17 +181,18 @@
   top: 25%;
   position: relative;
 }
-.thirdm2> img, .thirdm4>img{
-  top:12%;
+.thirdm2 > img,
+.thirdm4 > img {
+  top: 12%;
 }
-.thirdm3> img{
-  top:28%;
+.thirdm3 > img {
+  top: 28%;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 .faq h3 {
   font-size: 24px;
-  left:8%;
+  left: 8%;
   position: relative;
 }
 
@@ -200,7 +201,7 @@
   color: white;
   padding: 34px;
 }
-.faqbox{
+.faqbox {
   font-size: 22px;
   display: flex;
   justify-content: space-between;
@@ -216,7 +217,7 @@
   color: white;
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&7 */
-.footer{
+.footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,28 +226,58 @@
   padding: 10px auto;
   row-gap: 25px;
 }
-.foot_align{
+.foot_align {
   align-self: flex-start;
-  left:17%;
+  left: 17%;
   position: relative;
 }
-.footcard{
+.footcard {
   max-width: 70vw;
   /* border: 2px solid red; */
   max-width: 65vw;
-width: 70vw;
-row-gap: 5px;
-
-  
+  width: 70vw;
+  row-gap: 5px;
 }
-.footcard ul{
+.footcard ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.footcard ul li{
+.footcard ul li {
   text-align: center;
   list-style-type: none;
   cursor: pointer;
   text-decoration: underline;
 }
+
+/* @media screen and (max-width: 2000px) {
+  .cards_2ndMain {
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,1fr);
+  }
+  .no1,
+.img1,
+.recent1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.no2,
+.img2,
+.recent2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.no3,
+.img3,
+.recent3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+}
+.no4,
+.img4,
+.recent4 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+} */
