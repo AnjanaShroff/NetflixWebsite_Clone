@@ -189,9 +189,10 @@
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-.faq h2 {
-  text-align: left;
-  font-size: 36px;
+.faq h3 {
+  font-size: 24px;
+  left:8%;
+  position: relative;
 }
 
 .faq {
