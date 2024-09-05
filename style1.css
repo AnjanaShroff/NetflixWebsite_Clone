@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    /* overflow-x: hidden; */
+    overflow-wrap: anywhere;
+    overflow-x: visible;
+}
+
+.firstMain{
+    position: relative;
+    height: 98vh;
+    background-image: url(bg_image.jpg);
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    display: grid;
+    row-gap: 17vh;
+    grid-template-rows: 15% auto;
+    margin-bottom: 0px;
+    justify-content: center;
+    z-index: -10;
+}
+.box_1stmain{
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    height: 98vh;
+    z-index: -10;
+}
+/* .firstMain .bgImage{
+    filter:brightness(0.25);
+    z-index: -1;
+    height: 98vh;
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 3;
+position: absolute;
+} */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-row: 1/2;
+    top: 0px;
+    /* border: 2px solid yellow; */
+    width: 78vw;
+    max-width: 80vw;
+    height: 100px;
+}
+
+.logo{
+    height: 46px;
+    width: 150px;
+}
+
+/* .svgClass{
+    fill: rgb(229, 9, 20);
+} */
+.right{
+    /* margin-left: 12px; */
+    margin: auto 16px auto 360px;
+    padding: 3px;
+}
+.right select{
+    /* margin: 6px 34px; */
+    margin-right: 15px;
+    padding: 5px 14px;
+    background: #3f3b3b99;
+    border: 0.5px solid #ffffff8d;
+    font-size: 16px;
+    border-radius: 5px;
+    /* font-weight: bold; */
+}
+.right button{
+    background-color: red;
+    font-size: 14px;
+    padding: 7px 10px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.first{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 2vh;
+    align-items: center;
+    font-size: 16px;
+}
+.h1text{
+    width: 42vw;
+    font-size: 54px;
+    font-weight: 900;
+}
+.first p:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3vh;
+}
+.first p:nth-child(3){
+    /* background-color: gray; */
+    font-weight: 600;
+    width: 44vw;
+
+}
+.enterMail{
+    margin: 9px auto;
+    display: flex;
+    column-gap: 10px;
+}
+.enterMail input{
+    width: 28vw;
+    height: 8vh;
+    border: 0.25px solid rgba(255, 255, 255, 0.467);
+    border-radius: 5px;
+    /* background-color: rgba(155, 152, 152, 0.534); */
+    background: #3f3b3b99;
+}
+.enterMail input::placeholder{
+    font-size: 16px;
+    color: white;
+    padding-left: 15px;
+}
+.enterMail button{
+    background: rgb(229, 9, 20);
+    width: 14vw;
+    height: 8vh;
+    font-size: 24px;
+    font-weight: 600;
+    border:1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    /* padding: auto 18px; */
+    padding-left: 8px;
+}
+.enterMail button:hover{
+    background-color:rgb(171, 5, 13) ;
+}
