@@ -220,12 +220,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  padding: 10px auto;
+  row-gap: 25px;
+}
+.foot_align{
+  align-self: flex-start;
+  left:17%;
+  position: relative;
 }
 .footcard{
   max-width: 70vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 65vw;
 width: 70vw;
+row-gap: 5px;
+
   
 }
 .footcard ul{
@@ -237,4 +247,5 @@ width: 70vw;
   text-align: center;
   list-style-type: none;
   cursor: pointer;
+  text-decoration: underline;
 }

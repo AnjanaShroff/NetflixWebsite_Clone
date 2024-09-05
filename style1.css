@@ -67,7 +67,7 @@ position: absolute;
     margin: auto 16px auto 360px;
     padding: 3px;
 }
-.right select{
+.right select, .select_foot select{
     /* margin: 6px 34px; */
     margin-right: 15px;
     padding: 5px 14px;
