@@ -4,7 +4,7 @@
 .secondMain {
   height: 90vh;
   width: 100%;
-  background-color: rgb(3, 4, 11);
+  /* background-color: rgb(3, 4, 11); */
   margin: 0px;
   position: relative; /* if set to absolute the secondMain and thirdMain divs overlap each other*/
   display: grid;
